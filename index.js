@@ -9,12 +9,6 @@ h = 75;
 // Set up grid
 let grid;
 
-cnst defaultPlayer = {
-    direction: 'left',
-    tail: [],
-    color: 'watever'
-}
-
 let players = {};
 
 let food = {};

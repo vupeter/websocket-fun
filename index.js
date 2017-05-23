@@ -9,7 +9,7 @@ h = 75;
 // Set up grid
 let grid;
 
-const defaultPlayer = {
+cnst defaultPlayer = {
     direction: 'left',
     tail: [],
     color: 'watever'
@@ -175,7 +175,6 @@ const create = function(user){
 const surroundingsClear = function(x,y){
     for(let i=x-5; i<x+5;i++){
         for(let j = y-5; j < y+5; j++){
-            console.log(i)
             if(grid[i][j]) return false;
         }
     }

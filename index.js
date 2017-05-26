@@ -187,4 +187,4 @@ const randomStart = function(){
     return {x: startX, y: startY, direction: directions[direction]};
 }
 
-setInterval(gameLoop, 50);
+setInterval(gameLoop, 100);
